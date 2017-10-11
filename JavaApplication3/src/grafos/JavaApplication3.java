@@ -5,6 +5,11 @@
  */
 package grafos;
 
+import grafos.Nodo.Incidencia;
+
+import java.util.List;
+
+
 /**
  *
  * @author mateu
@@ -16,6 +21,23 @@ public class JavaApplication3 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("teste");
+        
+        Grafo grafo = new Grafo();
+        Nodo a = new Nodo();
+         
+        
+        a.adiciona("a",1);
+        System.out.println(a);
+        
+      
+        List<Nodo>= new List();
+        Nodo = [0,2,3,4];
+        a.showNodos();
+        
+        
+        
+        
     }
     
 }
